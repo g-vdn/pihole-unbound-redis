@@ -114,7 +114,9 @@ address=/.domain.com/10.0.0.2
 ```
 
 These IPs can point to services like Nginx Proxy Manager (NPM) or other internal services. This setup ensures that all subdomains automatically resolve to the assigned IP without needing individual DNS records.
+
 ⚠️ Note: These wildcard entries will not appear in the Pi-hole Web GUI under "Local DNS Records" since they are configured at the dnsmasq level.
+
 ⚠️ Note 1: When using custom conf files under dnsmasq.d , environment variable must be set in compose file **FTLCONF_misc_etc_dnsmasq_d: 'true'** (already set in both bridge and host mode variants, this is just as FYI)
 
 ---
