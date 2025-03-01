@@ -206,7 +206,7 @@ Modify this file based on your hardware:
 * Network Speed: Lower delay-close for fast networks to reduce query latency.
 * Expected Query Load: Increase outgoing-range for high-query environments.
 
-Or you can feed teh existing performance.conf file into an AI model and ask it to modofy according to your HW specs
+Or you can feed the existing performance.conf file into an AI model and ask it to modofy according to your HW specs
 
 ---
 
